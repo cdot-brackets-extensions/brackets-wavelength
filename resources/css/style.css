@@ -1,5 +1,5 @@
 /* Toolbar icon */
-@import "./bower_components/ionicons/css/ionicons.css";
+@import "./ionicons.css";
 
 #wavelength-icon.active {
     background-position: 0 -24px !important;
