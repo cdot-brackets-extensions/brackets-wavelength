@@ -15,5 +15,9 @@
   "license": "MIT",
   "engines": {
     "brackets": ">=0.28.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0"
   }
 }
