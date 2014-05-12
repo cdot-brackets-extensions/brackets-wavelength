@@ -12,6 +12,25 @@ extensions are built in Brackets.  We also like music :)
 
 The extension adds a new button to the toolbar for starting and stopping the music.
 
+##Add more music!
+
+This extension streams msuic from [HTML5 Audio tag compatible](https://developer.mozilla.org/en-US/docs/HTML/Supported_media_formats) URIs. At this time
+the assumption is that one URI maps to one playlist, using [Music for Programming](http://www.musicforprogramming.net/)'s precendent of
+combining multiple tracks into a single file.
+
+To add more music, edit the `playlist.json` file by adding a JSON object in the following format:
+
+```javascript
+{
+"url": "http://datashat.net/music_for_programming_20-uberdog.mp3",
+"name": "Uberdog",
+"link": "https://soundcloud.com/uberdog"
+}
+```
+
+**Note:** Due to our black magic programming techniques, entries at the bottom of the list
+will play first.
+
 ##Testing/Debugging
 
 You can either install this extension directly from GitHub
