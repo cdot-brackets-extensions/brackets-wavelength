@@ -1,0 +1,19 @@
+{
+  "name": "wavelength",
+  "title": "Music for Programmers",
+  "description": "A Brackets extension to add Music For Programmers to the editor.",
+  "keywords": [
+    "music",
+    "audio",
+    "sound",
+    "playlist",
+    "music for programmers"
+  ],
+  "homepage": "https://github.com/cdot-brackets-extensions/brackets-wavelength",
+  "version": "0.0.1",
+  "author": "The CDOT Team (https://github.com/cdot-brackets-extensions)",
+  "license": "MIT",
+  "engines": {
+    "brackets": ">=0.28.0"
+  }
+}
