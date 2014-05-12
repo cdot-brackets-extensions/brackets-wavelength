@@ -9,7 +9,8 @@ module.exports = function( grunt ) {
         "Gruntfile.js",
         "main.js",
         "package.json",
-        "playlist.json"
+        "playlist.json",
+        "lib/music.js"
       ]
     }
   });
