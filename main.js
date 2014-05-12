@@ -9,7 +9,7 @@ define(function(require, exports, module) {
     var $icon;
 
     //css file import
-    ExtensionUtils.loadStyleSheet(module, "./style.css");
+    ExtensionUtils.loadStyleSheet(module, "./resources/css/style.css");
 
     function _togglePlay() {
         if(music.paused) {
