@@ -21,7 +21,7 @@ or put brackets-wavelength in your local extensions folder.
 Some tips from https://github.com/adobe/brackets/wiki/How-to-write-extensions on how to do that:
 
 * Open your extensions folder by selecting "Help > Show Extensions Folder" in Brackets
-* Inside the `user` folder(*), create place the `brackets-5ialog folder`.
+* Inside the `user` folder(*), create place the `brackets-wavelength folder`.
 
 \* Note: Because it's easy to delete extensions from this location via Extension
 Manager, in the long run it's _**safer** to develop inside the `src/extensions/dev`_
