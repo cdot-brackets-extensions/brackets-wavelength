@@ -1,24 +1,26 @@
 define(function(require, exports, module) {
     "use strict";
 
-    var ExtensionUtils = brackets.getModule("utils/ExtensionUtils");
+    var music = require("./lib/music");
 
-    var visible = false,
-        realVisibility = false;
+    var ExtensionUtils = brackets.getModule("utils/ExtensionUtils");
 
     //jQuery objects
     var $icon;
 
     //css file import
-    ExtensionUtils.loadStyleSheet(module, "./wvstyle.css");
+    ExtensionUtils.loadStyleSheet(module, "./style.css");
 
-    function _toggleVisibility() {
-        visible = !visible;
-        _setPanelVisibility(visible);
+    function _togglePlay() {
+        if(music.paused) {
+            music.play();
+        } else {
+            music.pause();
+        }
     }
 
     // Add toolbar icon
     $icon = $("<a class=\"icon ion-headphone\"></a>")
-        .click(_toggleVisibility)
+        .click(_togglePlay)
         .appendTo($("#main-toolbar .buttons"));
 });
