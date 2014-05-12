@@ -8,7 +8,8 @@ module.exports = function( grunt ) {
       files: [
         "Gruntfile.js",
         "main.js",
-        "package.json"
+        "package.json",
+        "playlist.json"
       ]
     }
   });
