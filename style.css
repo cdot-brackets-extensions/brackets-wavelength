@@ -1,0 +1,14 @@
+/* Toolbar icon */
+@import "./bower_components/ionicons/css/ionicons.css";
+
+#wavelength-icon.active {
+    background-position: 0 -24px !important;
+}
+#main-toolbar .buttons>a {
+    color: #ADADAD;
+    font-size: 21px;
+    text-decoration: none;
+}
+#main-toolbar .buttons>a:hover, #main-toolbar .bottom-buttons>a:hover {
+    background-color: rgba(0,0,0,0.24) !important;
+}
