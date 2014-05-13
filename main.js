@@ -17,10 +17,12 @@ define(function(require, exports, module) {
         } else {
             music.pause();
         }
+        $icon.attr("title", music.trackInfo.name);
     }
 
     // Add toolbar icon
     $icon = $("<a class=\"icon ion-headphone\"></a>")
-        .click(_togglePlay)
-        .appendTo($("#main-toolbar .buttons"));
+    .click(_togglePlay)
+    .appendTo($("#main-toolbar .buttons"));
+    $icon.attr("title", "No playlist loaded!");
 });
