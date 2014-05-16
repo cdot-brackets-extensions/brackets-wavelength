@@ -14,8 +14,10 @@ define(function(require, exports, module) {
     function _togglePlay() {
         if(music.paused) {
             music.play();
+            document.getElementsByClassName("icon ion-headphone")[0].style.color = "#6A9FF5";
         } else {
             music.pause();
+            document.getElementsByClassName("icon ion-headphone")[0].style.color = "#ADADAD";
         }
         $icon.attr("title", music.trackInfo.name);
     }
